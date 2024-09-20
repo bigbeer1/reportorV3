@@ -3,14 +3,16 @@ module github.com/bigbeer1/reportorV3
 go 1.22
 
 require (
-	github.com/Monibuca/engine/v3 v3.5.3
+	github.com/Monibuca/engine/v3 v3.5.1
+	github.com/Monibuca/plugin-gb28181/v3 v3.0.9
 	github.com/go-redis/redis/v8 v8.11.5
 	go.etcd.io/etcd/client/v3 v3.5.16
 )
 
 require (
 	github.com/BurntSushi/toml v0.4.1 // indirect
-	github.com/Monibuca/utils/v3 v3.0.5 // indirect
+	github.com/Monibuca/utils/v3 v3.0.5
+	github.com/agiledragon/gomonkey/v2 v2.12.0 // indirect
 	github.com/asaskevich/EventBus v0.0.0-20200907212545-49d423059eef // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/cnotch/ipchub v1.1.0 // indirect
@@ -20,7 +22,7 @@ require (
 	github.com/funny/slab v0.0.0-20180511031532-b1fad5e5d478 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
-	github.com/google/uuid v1.3.1 // indirect
+	github.com/google/uuid v1.3.1
 	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
 	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
