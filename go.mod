@@ -1,4 +1,4 @@
-module reportorV3
+module github.com/bigbeer1/reportorV3
 
 go 1.22
 
